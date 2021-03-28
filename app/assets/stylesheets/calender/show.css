@@ -1,0 +1,100 @@
+.event-global-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+.event-global-container .diary-btn {
+  background-color: orange;
+  color: white;
+  font-size: 17px;
+  height: 75px;
+  width: 150px;
+  cursor: pointer;
+  border: 4px double white;
+  border-radius: 4px;
+  margin-top: 25px;
+  margin-left: 75px;
+  font-family: 'klee',sans-serif;
+}
+
+.event-global-container .diary-back-btn {
+  display: inline-block;
+  background-color: #868686;
+  color: white;
+  font-size: 17px;
+  height: 75px;
+  cursor: pointer;
+  border: 4px double white;
+  border-radius: 4px;
+  font-family: 'klee',sans-serif;
+}
+
+.event-global-container .diary-destroy-btn {
+  position: absolute;
+  background-color: #868686;
+  color: white;
+  font-size: 17px;
+  height: 75px;
+  width: 150px;
+  cursor: pointer;
+  border: 4px double white;
+  border-radius: 4px;
+  font-family: 'klee',sans-serif;
+  left: 100px;
+  top: 230px;
+}
+
+.event-container {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  margin: auto;
+  margin-top: -90px;
+}
+
+.event-container .event-graph {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.event-container .event-place {
+  width: 100%;
+  height: 7%;
+  font-size: 35px;
+  font-family: 'Snell Roundhand',sans-serif;
+  text-align: center;
+  background-color: teal;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.event-container .time-place {
+  width: 100%;
+  height: 7%;
+  font-size: 35px;
+  font-family: 'TsukuARdGothic-Regular',sans-serif;
+  text-align: center;
+  background-color: teal;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  margin-top: 2px;
+}
+
+.event-container .content-place {
+  width: 100%;
+  height: 40%;
+  font-size: 25px;
+  background-color: #f3f3f3;
+  border: 2px solid black;
+  cursor: pointer;
+  color: black;
+  overflow: hidden;
+  margin-top: 2px;
+}
+/*# sourceMappingURL=show.css.map */

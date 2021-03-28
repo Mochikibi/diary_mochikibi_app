@@ -1,0 +1,44 @@
+<%= render "shared/header" %>
+<div class="all-container">
+<h1 class="title1"><%= current_user.nick_name%>さんのやることリスト</h1>
+<%= link_to new_todo_path do %>
+<button class="create_button">やるコトを作成</button>
+<%end%>
+
+ <div class="list"> 
+ 
+<div class="content1">状態</div>
+<div class="content">目標</div>
+<div class="content2">内容</div>
+ </div> 
+ 
+
+<ul class="todo-main">
+<% if @todos.present? %>
+   <% @todos.each do |todo| %>
+  <li class="graph" id=<%=todo.id%>>
+  <%= render partial: "shared/todo", locals:{todo: todo}%>
+    <%# <span class="states"><%= todo.state.name %>
+ </li>
+  <%end%>
+  <%else%>
+   <li class="graph">
+    <span class="states">Todo</span>
+    <span class="limit">2021-3-10</span>
+    <span class="tasks">やるコトを追加しましょう！</span> 
+   <%# <button class="material-icons">
+     check_circle_outline
+   </button>
+     <button class="material-icons2" > 
+     edit
+     </button> 
+      <button class="material-icons3">
+    delete_sweep
+    </button> %>
+ </li>
+  <%end%>
+</ul>
+</div>
+
+
+
