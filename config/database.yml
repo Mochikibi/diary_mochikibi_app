@@ -52,3 +52,4 @@ production:
   database: diary_app_production
   username: diary_app
   password: <%= ENV['DIARY_APP_DATABASE_PASSWORD'] %>
+  
