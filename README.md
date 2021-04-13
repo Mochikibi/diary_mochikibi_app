@@ -6,6 +6,9 @@
 
 # 本番環境
 https://diary-mochikibi-app.herokuapp.com
+ID/Pass
+* ID: admin
+* Pass: 2222
 
 ログイン情報（テスト用）
 * Eメール : test@com
