@@ -1,24 +1,46 @@
 # README
+========== ========== ==========
+  ソフト名  ver.バージョン
+========== ========== ==========
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+【 ソフト名 】
+【 製 作 者 】
+【  種  別  】
+【 開発環境 】
+【 動作環境 】
+【バージョン】
+【最終更新日】
+【ファイル名】
+【同梱ファイル】
 
-Things you may want to cover:
+【 ウ ェ ブ 】
+【 E - mail 】
 
-* Ruby version
-111
-* System dependencies
+---------- ----------
+◇ 概要 ◇
 
-* Configuration
+◇ 動作条件 ◇
 
-* Database creation
+◇ ファイル構成 ◇
 
-* Database initialization
+◇ インストール ◇
 
-* How to run the test suite
+◇ アンインストール ◇
 
-* Services (job queues, cache servers, search engines, etc.)
+◇ つかいかた ◇
+  ●つかいかた1
 
-* Deployment instructions
+  ●つかいかた2
 
-* ...
+◇ 免責 ◇
+
+◇ 転載 ◇
+
+◇ FAQ・既知のバグ ◇
+
+----------
+◇ 連絡先 ◇
+	Web : http://
+	E-mail : 
+
+◇ 履歴 ◇
